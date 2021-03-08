@@ -6,7 +6,7 @@ import { Footer } from "../Footer";
 export const ProductPage = () => (
   <main>
     <Header />
-    <Product />
+    <Product productId={1}/>
     <Footer />
   </main>
 );
